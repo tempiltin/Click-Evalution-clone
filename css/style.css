@@ -103,6 +103,13 @@ header .header_inside .header_nav nav .navbar-brand img {
     box-shadow: none !important;
     outline: none;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #00b1e3;
+    border-radius: 15px;
+}
 
 header .header_inside .header_nav nav .collapse ul .dropdown .btn-secondary {
     background: none;
@@ -336,9 +343,9 @@ header .header_middile .scrollTopBottom img {
        
         white-space: nowrap;
     }
-    .header_middile .robot{
+    /* .header_middile .robot{
         margin-top: 25%;
-    }
+    } */
     
 }
 
@@ -364,6 +371,9 @@ header .header_middile .scrollTopBottom img {
 }
 
 @media (max-width: 767px) {
+    header .header_inside .header_nav nav .collapse .nav_lang{
+        margin-left: 50px;
+    }
     .keshbekButton {
         background: none;
         box-shadow: none;
@@ -447,9 +457,9 @@ header .header_middile .scrollTopBottom img {
         color: #f7f8fa;
     }
 
-    .pl320 {
+    /* .pl320 {
         padding-left: 20%;
-    }
+    } */
 
     .Mycontainer {
         width: 90%;
