@@ -248,7 +248,7 @@ header .header_middile .scrollTopBottom img {
 /* |||||||||||||||||||||||||sectiop_top */
 .section_top {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 
 .section_top h2 {
@@ -278,13 +278,99 @@ header .header_middile .scrollTopBottom img {
     display: block;
     margin-bottom: 20px;
 }
-
+.section_top .sectionPhone{
+    margin-top: 20%;
+}
+.section_top .sectionH2{
+    margin-top: 20%;
+}
+.section_top .sectionAButton{
+    margin-top: 40px;
+}
+.section_top .sectionAButton .sectionButtonOne{
+    padding: 20px 30px;
+    background: linear-gradient(
+        180deg, rgba(73, 180, 207, 1) 0%, rgba(0, 149, 186, 1) 100%);
+            box-shadow: 5px 5px 25px rgb(0 177 227 / 31%);
+    color: white;
+    border-radius: 8px;
+    
+}
 /* |||||||||||||||||| section_top1 */
 .section_top1 {
     width: 100%;
     height: 70vh;
 }
+.section_top1 h4{
+    font-size: 50px;
+    font-weight: 100;
+    color: #00B1E3;
+}
+.section_top1 h3{
+    font-size: 70px;
+}
+.section_top1 .sectionA1{
+    color: #00B1E3;
+    margin-top: 35px;
+    display: inline-block;
+    border-bottom: 1px dashed #00B1E3;
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+.section_top1 .sectionA2{
+    color: #00B1E3;
+    margin-top: 35px;
+    display: inline-block;
+    border-bottom: 1px dashed #00B1E3;
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+.section_top1 .sectionImgCard{
+    background: #1E1F2E;
+    width: 120px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 5px 12px rgb(0 0 0 / 7%);
+    margin-right: 10px;
+}
 
+/* section_top2 */
+.section_top2{
+    width: 100%;
+    height: 100vh;
+}
+.section_top2 h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.section_top2 h4{
+    color: #00B1E3;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.tttt{
+    margin-top: 10%;
+}
+.section_top2 .evolution-list {
+    display: flex;
+    align-items: center;
+}
+.section_top2 .evolution-list a{
+   
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 3px 5px 12px rgb(0 0 0 / 7%);
+}
+.section_top2 .evolution-list a img{
+    width: 100%;
+}
 /* |||||||||||||||||||||||| media */
 
 @media (max-width: 1200px) {
