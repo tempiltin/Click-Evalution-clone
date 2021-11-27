@@ -340,6 +340,7 @@ header .header_middile .scrollTopBottom img {
 }
 
 /* section_top2 */
+
 .section_top2{
     width: 100%;
     height: 100vh;
@@ -371,6 +372,100 @@ header .header_middile .scrollTopBottom img {
 .section_top2 .evolution-list a img{
     width: 100%;
 }
+.section_top2 .sectionphoneMobile{
+    width: 60%;
+}
+/* .section_top3 */
+
+.section_top3{
+    width: 100%;
+    height: 70vh;
+}
+.section_top3 h2{
+    font-size: 67px;
+    margin-bottom: 20px;
+}
+.section_top3 p{
+        font-size: 30px;
+        font-weight: 300;
+        color: #00B1E3;
+        margin-bottom: 20px;
+   
+}
+.section_top3 .GroupCard{
+    width: 60%;
+    
+}
+.section_top3 .GCp{
+    color: #A8AAC3;
+    font-size: 20px;
+    font-weight: 300;
+}
+.section_top3 .sectionH4{
+    font-size: 29px;
+    font-weight: 700;
+    color: #fff;
+}
+.section_top3 .Macbook{
+    width: 120%;
+}
+.section_top3 .Section3TextButtonLink{
+    background: linear-gradient(
+180deg, rgba(73, 180, 207, 1) 0%, rgba(0, 149, 186, 1) 100%);
+    box-shadow: 5px 5px 25px rgb(0 177 227 / 31%);
+    font-size: 14px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    
+   
+    padding: 20px 40px;
+    margin-top: 30px;
+    color: #fff;
+}
+/* section_top4 */
+.section_top4{
+    width: 100%;
+    height: 100vh;
+}
+.section_top4  .sectionFeaturesItem{
+    margin-top: 50px;
+    background: rgba(9, 14, 28, 0.78);
+    padding: 20px 40px 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 48%);
+    transition: 1s;
+}
+.section_top4  .sectionFeaturesItem:hover{
+    margin-top: 30px;
+    
+}
+.section_top4  .sectionFeaturesItem img{
+    margin-bottom: 20px;
+}
+.section_top4  .sectionFeaturesItem h4{
+    margin-bottom: 20px;
+}
+.asdasd p{
+    margin-bottom: 45px !important;
+}
+.title99{
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+}
+.aaaa{
+    display: block;
+    text-align: center;
+    
+    border-bottom: 0.5px solid #67CEEB;
+    color: #67CEEB;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
 /* |||||||||||||||||||||||| media */
 
 @media (max-width: 1200px) {

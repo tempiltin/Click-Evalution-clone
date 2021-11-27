@@ -1,0 +1,69 @@
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+ .swiper-slide-active:before {
+    content: '';
+    width: 25px;
+    height: 70px;
+    background: url('../img/left-arrow.png');
+    position: absolute;
+    bottom: 46px;
+    left: 43%;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 35rem;
+  position: relative;
+}
+.PrevNext1{
+    position: absolute;
+    top: 50%;
+}
+.PrevNext2{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 70%;
+  
+  object-fit: cover;
+}
+.section_top4 .postiv{
+    position: relative;
+}
+.swiper-slide{
+    position: relative;
+}
+.swiper-slide span{
+    position: absolute;
+    bottom: 114px;
+}
