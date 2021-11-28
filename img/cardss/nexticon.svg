@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.333" height="19.613" viewBox="0 0 31.333 19.613">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.228" y1="0.5" x2="0.977" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b1e3" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00b1e3"/>
+    </linearGradient>
+  </defs>
+  <g id="next" transform="translate(0.005 0.5)">
+    <path id="Path_405" data-name="Path 405" d="M153.807,90.113a9.306,9.306,0,1,1,9.307-9.307A9.307,9.307,0,0,1,153.807,90.113Zm0-16.868a7.562,7.562,0,1,0,7.562,7.562A7.571,7.571,0,0,0,153.807,73.244Zm-.864,11.4,0,0a.87.87,0,1,1-1.176-1.281l0,0,2.788-2.556-2.788-2.556,0,0a.87.87,0,1,1,1.176-1.281l0,0,3.49,3.2a.873.873,0,0,1,0,1.286Z" transform="translate(-132.285 -71.5)" fill="#00b1e3" stroke="rgba(0,0,0,0)" stroke-width="1" fill-rule="evenodd"/>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="13" height="2" transform="translate(9.995 -0.18)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="15" height="2" transform="translate(-0.005 3.82)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_50" data-name="Rectangle 50" width="19" height="2" transform="translate(3.995 16.82)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

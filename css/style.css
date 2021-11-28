@@ -341,7 +341,7 @@ header .header_middile .scrollTopBottom img {
 
 /* section_top2 */
 
-.section_top2{
+.section_top{
     width: 100%;
     height: 100vh;
 }
@@ -465,8 +465,67 @@ header .header_middile .scrollTopBottom img {
     transition: 0.5s;
     font-size: 20px;
 }
+.section_top4 .section4H2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.section_top4 .section4P{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #A8AAC3;
+}
+
+.section_top4 .section4PayAll{
+    text-align: center;
+    padding-top: 4rem;
+}
+.section_top4 .section4PayAll .section4AllButton{
+    background: #00B1E3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\||||||||||||||||||||| */
+/* .section_top4 .swiper-wrapper .swiper-slide .cardTem{
+} */
+/* section_bottom */
+
+.section_bottom{
+    width: 100%;
+    height: 100vh;
+}
+.section_bottom .secBottomH2{
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-top: 35%;
+}
+.section_bottom .newcard{
+    width: 470px;
+    height: 700px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 /* |||||||||||||||||||||||| media */
+
+
+
+
+
 
 @media (max-width: 1200px) {
     .buttonkeshbek {
