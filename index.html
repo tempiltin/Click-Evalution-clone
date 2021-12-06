@@ -136,11 +136,11 @@
                             </div>
                         </div>
                          <div class="row justify-content-between mt-xl-5 mt-lg-0">
-                            <div class="col-6 col-lg-4 col-md-4 mt-lg-5 col-sm-5">
+                            <div class="col-6 col-lg-4 col-md-4 mt-lg-5 col-sm-5 d-none d-sm-block">
                                 <span class="lll">CLICK</span>
                                 <p class="ddd">DAY</p>
                             </div>
-                            <div class="col-6 col-lg-4 col-md-4 mt-lg-5  col-sm-5">
+                            <div class="col-6 col-lg-4 col-md-4 mt-lg-5  col-sm-5 d-none d-sm-block">
                                <span class=" d-block textend lll pl320">Ноября</span>
                                <p  class=" textend ddd">16</p>
                             </div>
@@ -163,7 +163,7 @@
                     </div>
                     <div class="col-12 d-flex d-sm-flex d-md-none">
                         <div class="row mt-sm-5 mt-5 justify-content-center">
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <a href="#" ><img class="downloadImg mt-2" src="./img/playmarket.svg" alt="png"></a>
                                 <a href="#" ><img class="downloadImg mt-2" src="./img/appstory.svg" alt="png"></a>
                                 <a href="#" ><img class="downloadImg mt-2" src="./img/appgalery.svg" alt="png"></a>
@@ -218,17 +218,17 @@
                         </div>
                     </div>
                     <div class="row justify-content-between">
-                        <div class="col-lg-3 col-md-4 ">
+                        <div class="col-lg-3 col-md-4 col-sm-4 ">
                             <img class="sectionTopImg" src="./img/leftrighit.svg" alt="">
                             <h4>Переводите
                                 cредства</h4>
                         </div>
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 col-sm-4">
                             <img class="sectionTopImg" src="./img/korzina.svg" alt="">
                             <h4>Переводите
                                 cредства</h4>
                         </div>
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 col-sm-4">
                             <img class="sectionTopImg" src="./img/keshbek.svg" alt="">
                             <h4>Переводите
                                 cредства</h4>
@@ -307,12 +307,12 @@
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-lg-3 col-md-4 text-center">
+                    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
                         <img class="GroupCard" src="./img/groups.svg" alt="svg">
                         <h4 class="sectionH4 mt-2">5 500 000</h4>
                         <p class="GCp">Активных <span> пользователей</span></p>
                     </div>
-                    <div class="col-lg-3 col-md-4 text-center">
+                    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
                         <img class="GroupCard" src="./img/carta.svg" alt="svg">
                         <h4 class="sectionH4">Постоянная</h4>
                         <p class="GCp">Маркетинговая<span> поддержка</span></p>
@@ -374,7 +374,7 @@
                 </div>
             </div>
            <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 d-none d-sm-none d-md-block">
                 <div class="swiper mySwiper">
 
                     <img class="PrevNext1 swiper-button-prev" src="./img/lightsvg.svg" alt="svg">
@@ -594,9 +594,9 @@
     <footer>
         <div class="Mycontainer">
             <div class="row pt-2">
-                <div class="col-5 col-lg-3">
+                <div class="col-12 col-sm-5 col-lg-3 col-xl-5">
                     <div class="row justify-content-between">
-                        <div class="col-6 col-lg-12">
+                        <div class="col-12 col-md-12 col-lg-12 col-xl-6">
                             <div class="footerBox">
                                 <div class="footerimg">
                                     <img src="https://click.uz/click/images/logo-1.png" alt="НАЖМИТЕ Evolution">
@@ -633,7 +633,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-sm-7">
                    <div class="row">
                     <div class="col-lg-4 d-lg-none d-none d-xl-block">
                         <div class="footerWidget">
@@ -739,6 +739,7 @@
     spaceBetween: 0,
     centeredSlides: true,
     freeMode: true,
+  
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -753,5 +754,6 @@
     <script src="./script/jquery-3.2.0.min.js"></script>
     <script src="./script/owl.carousel.min.js"></script>
 <script src="./script/script.js"></script>
+<script src="./script/iscroll.js"></script>
 </body>
 </html>

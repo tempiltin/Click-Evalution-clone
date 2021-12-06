@@ -1,7 +1,33 @@
-$(document).ready(function () {
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items : 2 ,
+        margin : 12 ,
+        // center : true,
+        loop : true,
+        autoplay : true,
+        autoplayTimeout : 5000000,
+        Responsive : {
+            0 : {
+                items :1,
+                center : true,
+            },
+            768 : {
+                items :1,
+                center : true,
+            }, 576 : {
+                items :1,
+                center : true,
+            }
+        },
+        navigator,
+        nav:true,
+        navText: [$('.am-next'),$('.am-prev')]
+    });
+  }); 
+  $(document).ready(function () {
 
 
-    clearInterval( Leftt() , 100)
+    clearInterval( Leftt , 0)
 
     function Leftt() {
 
@@ -19,29 +45,9 @@ $(document).ready(function () {
           
          },1500)
         
-        setInterval( Leftt() , 100)
+        setInterval( Leftt , 100)
     };
     
     
 });
 
-$(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-        items : 3 ,
-        margin : 12 ,
-        loop : true,
-        autoplay : true,
-        autoplayTimeout : 5000000,
-        Responsive : {
-            0 : {
-                items :2
-            },
-            768 : {
-                items :3
-            }
-        },
-        navigator,
-        nav:true,
-        navText: [$('.am-next'),$('.am-prev')]
-    });
-  }); 
